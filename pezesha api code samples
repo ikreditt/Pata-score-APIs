@@ -1,0 +1,615 @@
+
+Authorization: Bearer {API KEY}
+
+{
+   "status":200,
+   "message":"Customer successfully registered",
+   "data":{
+      "id":132890,
+      "full_name":"Anthony Kamau",
+      "national_id":"21314151",
+      "gender":"Female",
+      "phone":"254707888888",
+      "date_of_birth":"",
+      "date_registered": "13/03/2023 11:18",
+      "name":"Anthony Kamau",
+      "location":132890,
+      "uuid":"c211984f-b5a5-45fb-ae38-9f22fe0465d9",
+      "email":""
+   }
+}
+
+{ 
+ "full_name": "Anthony Kamau", 
+ "national_id": "21314151", 
+ "phone": "0707888888",
+ "gender": "Female" 
+ "location": "Kwale" 
+}
+
+{
+   "status":200,
+   "message":"Customer info successfully fetched",
+   "data":{
+      "id":132890,
+      "full_name":"Anthony Kamau",
+      "national_id":"21314151",
+      "gender":"Female",
+      "phone":"254707888888",
+      "date_of_birth":"",
+      "date_registered": "13/03/2023 11:18",
+      "name":"Anthony Kamau",
+      "location":132890,
+      "uuid":"c211984f-b5a5-45fb-ae38-9f22fe0465d9",
+      "email":""
+   }
+}
+{
+   "status":200,
+   "message":"Statement check successful",
+   "data":{
+      "exists":false
+   }
+}
+
+{
+   "status": 202,
+   "message": "Statement saved successfully. Extraction process initiated",
+   "data":{
+      "reference_id": "22050643-73b9-4eec-ac73-4572d643ac1c",
+      "name": "ANTHONY KAMAU",
+      "phone_number": "254700123456"
+      "statement_type": "user_statement",
+       "short_code": null,
+       "statement_period": "17 Oct 2022 - 17 Jan 2023"
+   }
+}
+
+{
+  "national_id": "546444747",
+  "file_name": "MPESA_Statement_2022-12-07_to_2023-03-07_254707888888_54646.pdf",
+  "callback_url": "https://webhook.site/45349498-57fc-4ab1-bcdb-0b0b1a657932",
+  "statement_type": "user_statement",
+  "file":"base 64 file string",
+    "kyc_data": {
+    "name": "ANTHONY KAMAU",
+    "gender": "Male",
+    "location": "Nairobi",
+    "dob": "1987-08-06"
+    }
+}
+
+{
+  "reference_id": "2a9a22f2-a593-4b32-ab67-9dd84adfa077",
+  "status": 200,
+  "message": "Statement analytics callback successfully fetched",
+  "phone_number": "254712039804",
+  "name": "ANTHONY MATHENGE",
+  "statement_data": {
+    "id": 0,
+    "national_id": "390132",
+    "created_at": null,
+    "jsonurl": "_ANTHONY_MATHENGE1_01Jan2023_to_08Jun2023_943537.json",
+    "ref_id": "2a9a22f2-a593-4b32-ab67-9dd84adfa077",
+    "output_data": {
+      "id": null,
+      "national_id": "390132",
+      "first_transaction_date": "2023-02-01",
+      "last_transaction_date": "2023-02-22",
+      "statement_days": "22",
+      "total_received_amount": "57128.729999999996",
+      "total_spent_amount": "49274.020000000004",
+      "no_of_credit_transactions": "16",
+      "no_of_debit_transactions": "143",
+      "opening_balance": "284.4",
+      "closing_balance": "8973.46",
+      "average_balance": null,
+      "limit": null,
+      "total_borrowed_amount": null,
+      "operational_cost": null,
+      "unique_customers_served": null,
+      "count_of_loans": "2",
+      "total_loan_repayment_amount": "1122.22",
+      "count_of_loan_repyments": null,
+      "debt_income_ratio": "0.0",
+      "debit_credit_ratio": "1.0",
+      "average_monthly_received": "2597.0",
+      "mpesa_type": null,
+      "no_debit_credit_ratio": "8.94",
+      "borrowing_vs_income_ratio": "0.0",
+      "gender": "Male",
+      "dob": "1970-10-12",
+      "name": "Test",
+      "location": "Nairobi",
+      "age": "52",
+      "inactive_days": "150",
+      "max_sent": "13000.0",
+      "mean_sent": "286.4768604651163",
+      "max_received": "13000.0",
+      "z_sent": "0.2007752118001289",
+      "z_received": "0.19636785120493544",
+      "z_balance": "0.5950363788591533",
+      "n_received": "16",
+      "n_sent": "143",
+      "unemployment": "5.74",
+      "inflation": "8",
+      "fx": "140",
+      "gas": "1.8",
+      "food_inflation": "10",
+      "Total": "0.8",
+      "avg_balance": "1551.679069767442",
+      "total_borrowed_mpesa": "251.73",
+      "count_of_loan_repayments": "5",
+      "repayment_rate": "Good",
+      "bank_rate": "10.5",
+      "mean_received": "332.1437790697674",
+      "spending_rate": "Moderate",
+      "spending_rate_ratio": "1.0",
+      "repayment_rate_ratio": "2.5",
+      "repayment_rate_ratio_n": "2.5",
+      "total_savings": "0.0",
+      "total_shopping": "1720.0",
+      "total_gaming": "0.0",
+      "total_eat_drink": "0.0",
+      "total_betting": "0.0",
+      "total_education": "0.0",
+      "total_technology_electronics": "0.0",
+      "total_groceries": "0.0",
+      "total_airtime_internet_topups": "0.0",
+      "total_mobile_loans": "0.0",
+      "total_electricty": "0.0",
+      "total_water": "0.0",
+      "total_fuel": "0.0",
+      "debt_ratio": "0.16",
+      "mobiLoansScore": null,
+      "score": "347.5840620944491",
+      "score_cat": "Fair",
+      "credit_history": null,
+      "default_probability": "0.8193669589848304",
+      "npa": null,
+      "npa_closed": null,
+      "borrowing_vs_income": "Good",
+      "pezesha_mpesa_credit_score": "347.5840620944491",
+      "pezesha_mpesa_crb_credit_score": null,
+      "crb_mobile_loan_score": null,
+      "pezesha_average_score": "347.5840620944491"
+    }
+  }
+}
+
+{
+   "status":200,
+   "message":"Extraction process status successfully fetched",
+   "data":{
+      "message":"Statement scoring in progresss",
+      "status":1
+   }
+}
+
+{
+    "status": 200,
+    "message": "Customer Score result fetched successfully",
+    "data": {
+        "national_id": "32941218",
+        "score_data": {
+            "national_id": "32941218",
+            "mpesa_default": null,
+            "crb_score": null,
+            "mpesa_crb": null,
+            "average_score": null,
+            "fundable_status": "fundable",
+            "limit": "10000",
+            "score": "528.607749227731",
+            "score_cat": null,
+            "borrowing_vs_income_ratio": "0.0",
+            "borrowing_vs_income": "Good",
+            "repayment_rate_ratio": "0.66",
+            "repayment_rate": "Bad",
+            "spending_rate_ratio": "1.0",
+            "spending_rate": "Moderate",
+            "pezesha_mpesa_credit_score": null,
+            "pezesha_mpesa_crb_credit_score": null,
+            "crb_mobile_loan_score": null,
+            "pezesha_average_score": null
+        },
+        "created_at": "2023-06-20T17:20:00+00:00"
+    }
+}
+
+{
+   "status":202,
+   "message":"Statement saved successfully. Extraction process initiated",
+   "data":{
+      "reference_id":"22050643-73b9-4eec-ac73-4572d643ac1c",
+      "name":"ANTHONY KAMAU",
+      "phone_number":"254700123456"
+      "statement_type": "user_statement",
+       "short_code": null,
+       "statement_period": "17 Oct 2022 - 17 Jan 2023"
+   }
+}
+
+{
+    "national_id": 546444747,
+    "file_name": "546444747.pdf",
+    "file": "base 64 file string",
+    "bank": "equity"
+    "callback_url": "https://webhook.site/5dbae6c8-4aab-4bd9-a30f-a4ce358fddda",
+}
+
+{
+    "status": "success",
+    "data": {
+        "national_id": "546444747",
+        "output_data": {
+            "national_id": "546444747",
+            "first_transaction_date": "1970-01-01",
+            "last_transaction_date": "1970-01-01",
+            "bank_statement_days": 1,
+            "bank_inactive_days": 19522,
+            "bank_total_days": 1,
+            "max_debit": 500.0,
+            "mean_debit": 86.32786885245902,
+            "debit_std": 136.65029212585375,
+            "debit_zscore": 0.6317430245443734,
+            "total_debit": 10532.0,
+            "max_credit": 333.0,
+            "mean_credit": 17.704918032786885,
+            "credit_std": 60.86893855433151,
+            "credit_zscore": 0.2908695050922156,
+            "total_credit": 2160.0,
+            "n_debit": 24,
+            "n_credit": 10,
+            "n_transactions": 34,
+            "n_ratio": 2.4,
+            "avg_balance": 118.95081967213115,
+            "balance_std": 111.52334552769116,
+            "z_balance": 1.0666001733475234,
+            "min_balance": 1.0,
+            "max_balance": 493.0,
+            "debit_credit_ratio": 4.88,
+            "z_received": 0.6291485863771015,
+            "average_monthly_received": 10532.0,
+            "unemployment": 6.6,
+            "inflation": 9.2,
+            "fx": 129.8,
+            "gas": 1.4,
+            "food_inflation": 13.3,
+            "bank_rate": 8.75,
+            "Total": 0.660370272871831,
+            "new_repeat": "new",
+            "gender": "Male",
+            "dob": "1995-02-01",
+            "name": "ANTHONY MATHENGE",
+            "location": "Nairobi",
+            "age": 28,
+            "score": 475.46254228011225,
+            "average_score": 475.46254228011225,
+            "default_probability": 0.12664743805327444,
+            "score_cat": "Good"
+        },
+        "ref_id": "dee34d94-f37c-41de-b48d-7096485b91a6"
+    }
+}
+
+{
+    "status": 200,
+    "message": "Customer Score result fetched successfully",
+    "data": {
+        "national_id": "546444747",
+        "score_data": {
+            "national_id": "546444747",
+            "first_transaction_date": "1970-01-01",
+            "last_transaction_date": "1970-01-01",
+            "bank_statement_days": "1",
+            "bank_inactive_days": "19530",
+            "bank_total_days": "1",
+            "max_debit": "54323426.0",
+            "mean_debit": "41461.216660935934",
+            "debit_std": "1074036.1405303841",
+            "debit_zscore": "0.03860318577404799",
+            "total_debit": "988767094.9300001",
+            "max_credit": "150000.0",
+            "mean_credit": "722.1127956222743",
+            "credit_std": "6099.837738852835",
+            "credit_zscore": "0.11838229581465529",
+            "total_credit": "17220945.95",
+            "n_debit": "274",
+            "n_credit": "172",
+            "n_transactions": "446",
+            "n_ratio": "1.5930232558139534",
+            "avg_balance": "6536.168542435424",
+            "balance_std": "22572.88905983832",
+            "z_balance": "0.28955835139705594",
+            "min_balance": "0.0",
+            "max_balance": "204044.97",
+            "debit_credit_ratio": "57.42",
+            "z_received": "0.03860237640658617",
+            "average_monthly_received": "988767095.0",
+            "unemployment": "6.6",
+            "inflation": "9.2",
+            "fx": "129.8",
+            "gas": "1.4",
+            "food_inflation": "13.3",
+            "bank_rate": "8.75",
+            "Total": "0.660370272871831",
+            "new_repeat": "new",
+            "name": "ANTHONY MATHENGE",
+            "gender": "Male",
+            "location": "Nairobi",
+            "dob": "1996-07-30",
+            "age": "26",
+            "score": "282.9648303963427",
+            "average_score": "282.9648303963427",
+            "default_probability": "0.546350388743985",
+            "score_cat": "Fair",
+            "prev_sme": "no",
+            "fundable_status": "non_fundable",
+            "min_limit": "0",
+            "max_limit": "0",
+            "limit": "0"
+        },
+        "created_at": "2023-06-21T11:10:13+00:00"
+    }
+}
+
+{
+    "status": 200,
+    "message": "Business data successfully fetched",
+    "data": {
+        "id": 26,
+        "verified": "true",
+        "status": "registered",
+        "registrationDate": "9 April 1998",
+        "registrationNo": "PVT-FYUVQBQR",
+        "businessName": "PEZESHA",
+        "branch": null,
+        "partners": "[
+            {"type":"director_shareholder","name":"JANE DOE","idType":"citizen","idNumber":"67983412","shares":[{"shareCount":"100","nominalValue":null,"name":"ORDINARY"}]},
+            {"type":"director_shareholder","name":"JOHN DOE","idType":"citizen","idNumber":"78653421","shares":[{"shareCount":"850","nominalValue":null,"name":"ORDINARY"}]},
+            {"type":"director_shareholder","name":"kenya impact incubator limited","idType":"local_company","idNumber":"CPR/2015/652153","shares":[{"shareCount":"50","nominalValue":null,"name":"ORDINARY"}]}]",
+        "email": "hello@pezesha.com",
+        "phoneNumber": "+254712345678",
+        "postalAddress": "P O BOX 68999 - 00622",
+        "physicalAddress": "Sodapop Plaza/Land Reference Number: 1/13413/Kamburu Drive , Kindaruma Road, Fl: 5, Room/Door:  502, LR NO 312/17830 HSE NO 6 THOGOTO ROAD NAIROBI",
+        "shareCapital": "[{"shareCount":1000,"nominalValue":1000.0,"name":"ORDINARY"}]",
+        "encumbrances": "[]"
+    }
+}
+
+{
+    "registration_no": "PVT-GYUPEKK"
+}
+
+{
+   "status":202,
+   "message":"Verification data fetch Process initiated",
+   "data":{
+      "reference_id":"b19234cc-2adf-4c1c-a6f8-91684254466c"
+   }
+}
+
+{
+   "identifier_type":"national_id",
+   "identifier":"21626048",
+   "first_name": "Jane",
+   "last_name": "Doe",
+   "callback_url":"https://webhook.site/0f81808a-0134"
+}
+
+{
+   "status":200,
+   "message":"Verification data successfully fetched",
+   "reference_id":"b19234cc-2adf-4c1c-a6f8-91684254466c",
+   "data":{
+      "national_id":"21626048",
+      "full_name":"MATHENGE ANTHONY KAMAU",
+      "gender":"M",
+      "surname":"MATHENGE",
+      "date_of_birth":"01-02-1984",
+      "other_names":"ANTHONY KAMAU"
+   }
+}
+
+{
+    "status": 200,
+    "message": "Verification data successfully fetched",
+    "data": {
+        "national_id": "12431678",
+        "full_name": "JANE DOE CURTIS",
+        "other_names": "JANE DOE",
+        "surname": "CURTIS",
+        "citizenship": "",
+        "clan": "",
+        "date_of_birth": "",
+        "date_of_death": "",
+        "ethnic_group": "",
+        "family": "",
+        "first_name": "JANE",
+        "gender": "F",
+        "occupation": "UNEMPLOYED",
+        "other_name": "DOE",
+        "photo": "base64 string",
+        "signature": "base64 string",
+        "place_of_birth": "",
+        "place_of_death": "",
+        "place_of_live": "CHIEF\nNGUNGI\nKANGONDE\nLOCATION - MASINGA\nDIVISION - MASINGA\nDISTRICT - MASINGA\n",
+        "date_of_issue": "9/25/2014 12:00:00 AM",
+        "reg_office": "",
+        "serial_number": "124316781",
+        "idnumber": "12431678"
+      }
+}
+
+{ 
+ "identifier_type": "national_id", 
+ "identifier": "12431678",
+ "first_name": "Jane",
+ "last_name": "Doe",
+}
+
+{ 
+ "identifier_type": "passport_no", 
+ "identifier": "AK078R474",
+ "first_name": "Jane",
+ "last_name": "Doe",
+}
+
+{
+   "status":202,
+   "message":"Mobiloan score fetch Process initiated",
+   "data":{
+      "reference_id":"c6966641-e519-44b6-9e98-eb2b3be0db76"
+   }
+}
+
+{
+   "first_name":"Anthony",
+   "last_name":"Mathenge",
+   "national_id":"21626048",
+   "callback_url":"https://webhook.site/0f81808a",
+   "cache_age":0
+}
+
+{
+   "status":200,
+   "message":"Mobiloan score data successfully fetched",
+   "reference_id":"c6966641-e519-44b6-9e98-eb2b3be0db76",
+   "data":{
+      "summary":{
+         "pa_open_mobi_loan_accounts":0,
+         "npa_closed_accounts":0,
+         "pa_open_accounts_with_dh":0,
+         "pa_closed_mobi_loan_accounts_with_dh":0,
+         "npa_open_accounts":3,
+         "pa_closed_accounts":7,
+         "pa_accounts_with_dh":0,
+         "npa_open_mobi_loan_accounts":3,
+         "last_mobi_loan_listing_date_my_sector":"23-11-2017",
+         "pa_accounts":7,
+         "pa_closed_mobi_loan_accounts":7,
+         "last_mobi_loan_principal_amount":4400,
+         "mobi_loan_accounts":10,
+         "credit_history":54,
+         "min_mobi_loan_principal_amount":4400,
+         "avg_mobi_loan_principal_amount":4600,
+         "last_mobi_loan_listing_date_other_sectors":null,
+         "max_mobi_loan_principal_amount":5000,
+         "npa_closed_mobi_loan_accounts":0,
+         "pa_open_accounts":0,
+         "npa_accounts":3,
+         "pa_open_mobi_loan_accounts_with_dh":0,
+         "pa_closed_accounts_with_dh":0
+      },
+      "phone_numbers":[
+         {
+            "phone_type":"MOBILE",
+            "phone_number":"254707888888"
+         }
+      ],
+      "personal_profile":{
+         "national_id":"21626048",
+         "full_name":"MATHENGE ANTHONY KAMAU",
+         "gender":"M",
+         "surname":"MATHENGE",
+         "date_of_birth":"01-02-1984",
+         "other_names":"ANTHONY KAMAU"
+      },
+      "score_output":{
+         "reason_code_aarc1":"Average credit limit of accounts are relatively low",
+         "reason_code_aarc2":"Low number of payments recently",
+         "reason_code_aarc3":"Satisfactory accounts are relatively old",
+         "reason_code_aarc4":"Recent delinquency on accounts",
+         "probability":"45.56",
+         "grade":"GG",
+         "mobi_loans_score":"412"
+      }
+   }
+}
+
+{
+   "status":200,
+   "message":"Mobiloan score data successfully fetched",
+   "data":{
+      "summary":{
+         "pa_open_mobi_loan_accounts":0,
+         "npa_closed_accounts":0,
+         "pa_open_accounts_with_dh":0,
+         "pa_closed_mobi_loan_accounts_with_dh":0,
+         "npa_open_accounts":3,
+         "pa_closed_accounts":7,
+         "pa_accounts_with_dh":0,
+         "npa_open_mobi_loan_accounts":3,
+         "last_mobi_loan_listing_date_my_sector":"23-11-2017",
+         "pa_accounts":7,
+         "pa_closed_mobi_loan_accounts":7,
+         "last_mobi_loan_principal_amount":4400,
+         "mobi_loan_accounts":10,
+         "credit_history":54,
+         "min_mobi_loan_principal_amount":4400,
+         "avg_mobi_loan_principal_amount":4600,
+         "last_mobi_loan_listing_date_other_sectors":null,
+         "max_mobi_loan_principal_amount":5000,
+         "npa_closed_mobi_loan_accounts":0,
+         "pa_open_accounts":0,
+         "npa_accounts":3,
+         "pa_open_mobi_loan_accounts_with_dh":0,
+         "pa_closed_accounts_with_dh":0
+      },
+      "phone_numbers":[
+         {
+            "phone_type":"MOBILE",
+            "phone_number":"254707888888"
+         }
+      ],
+      "personal_profile":{
+         "national_id":"21626048",
+         "full_name":"MATHENGE ANTHONY KAMAU",
+         "gender":"M",
+         "surname":"MATHENGE",
+         "date_of_birth":"01-02-1984",
+         "other_names":"ANTHONY KAMAU"
+      },
+      "score_output":{
+         "reason_code_aarc1":"Average credit limit of accounts are relatively low",
+         "reason_code_aarc2":"Low number of payments recently",
+         "reason_code_aarc3":"Satisfactory accounts are relatively old",
+         "reason_code_aarc4":"Recent delinquency on accounts",
+         "probability":"45.56",
+         "grade":"GG",
+         "mobi_loans_score":"412"
+      }
+   }
+}
+
+{
+   "first_name":"Anthony",
+   "last_name":"Mathenge",
+   "national_id":"21626048",
+   "cache_age":0
+}
+
+{
+    "status": 200,
+    "message": "Account balance successfully fetched",
+    "data": {
+        "amount": 5763
+    }
+}
+
+{
+   "status":200,
+   "message":"Account topup successfully fetched",
+   "data":{
+      "amount":0.0
+   }
+}
+
+{
+   "status":200,
+   "message":"Api usage successfully fetched",
+   "data":{
+      "amount":0.0
+   }
+}
+
